@@ -4,6 +4,12 @@ export const User = styled.div`
   justify-content: space-between;
   display: flex;
   align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  :hover {
+    cursor: pointer;
+    background-color: #ccc9c9;
+  }
 `;
 
 export const UserColumn = styled.div`
